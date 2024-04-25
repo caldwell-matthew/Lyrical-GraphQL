@@ -7,8 +7,7 @@ const schema = require('./schema/schema');
 
 const app = express();
 
-// Replace with your Mongo Atlas URI
-const MONGO_URI = '';
+const MONGO_URI = REACT_APP_MONGO_API = 'mongodb+srv://mcaldwell:help44yourself@cluster0.moisvwm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 if (!MONGO_URI) {
   throw new Error('You must provide a Mongo Atlas URI');
 }
