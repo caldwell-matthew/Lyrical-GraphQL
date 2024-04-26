@@ -7,7 +7,7 @@ const schema = require('./schema/schema');
 
 const app = express();
 
-const MONGO_URI = asdfasdf;
+const MONGO_URI = 
 if (!MONGO_URI) {
   throw new Error('You must provide a Mongo Atlas URI');
 }
